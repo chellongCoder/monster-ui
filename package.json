@@ -1,0 +1,46 @@
+{
+  "name": "monster-ui",
+  "version": "4.3.0",
+  "description": "Monster-UI",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/2600hz/monster-ui.git"
+  },
+  "author": "2600Hz",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/2600hz/monster-ui/issues"
+  },
+  "homepage": "https://github.com/2600hz/monster-ui#readme",
+  "dependencies": {},
+  "devDependencies": {
+    "browser-sync": "^2.26.3",
+    "eslint": "^3.19.0",
+    "eslint-config-standard": "^6.2.1",
+    "eslint-plugin-promise": "^3.6.0",
+    "eslint-plugin-standard": "^2.3.1",
+    "gulp": "^3.9.1",
+    "gulp-cached": "^1.1.1",
+    "gulp-clean": "^0.3.2",
+    "gulp-clean-css": "^3.9.0",
+    "gulp-concat": "^2.6.1",
+    "gulp-concat-css": "^3.1.0",
+    "gulp-declare": "^0.3.0",
+    "gulp-eslint": "^3.0.1",
+    "gulp-handlebars": "^5.0.2",
+    "gulp-json-editor": "^2.2.1",
+    "gulp-rename": "^1.2.2",
+    "gulp-sass": "^3.1.0",
+    "gulp-uglify": "^2.1.2",
+    "gulp-util": "^3.0.8",
+    "gulp-wrap": "^0.13.0",
+    "handlebars": "^4.0.11",
+    "require-dir": "^0.3.2",
+    "requirejs": "^2.3.5",
+    "run-sequence": "^1.2.2"
+  }
+}

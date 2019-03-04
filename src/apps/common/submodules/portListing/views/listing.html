@@ -1,0 +1,22 @@
+{{#if hasPorts}}
+<div class="listing-section">
+	<button class="monster-button-primary port-wizard">
+		{{i18n.portListing.listing.button}}
+	</button>
+	<div id="incomplete_ports_wrapper"></div>
+	<div id="submitted_ports_wrapper"></div>
+</div>
+{{else}}
+<div class="listing-section empty-listing">
+	<i class="icon-telicon-porting iconography"></i>
+	<h4 class="title">
+		{{i18n.portListing.listing.empty.title}}
+	</h4>
+	<p class="text">
+		{{i18n.portListing.listing.empty.text}}
+	</p>
+	<button class="monster-button-primary port-wizard">
+		{{i18n.portListing.listing.button}}
+	</button>
+</div>
+{{/if}}
